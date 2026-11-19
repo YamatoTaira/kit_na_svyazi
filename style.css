@@ -10,9 +10,9 @@ img{max-width:100%}
 
 /* шапка */
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--blue);display:flex;align-items:center;gap:16px;padding:10px 20px;flex-wrap:wrap;box-shadow:0 4px 0 var(--lime)}
-.logo{color:#fff;font-weight:900;font-size:19px;text-decoration:none;margin-right:auto;letter-spacing:-.3px}.logo b{color:var(--lime)}
-.logo::before{content:"🐳";margin-right:8px;display:inline-block;transition:transform .4s}
-.logo:hover::before{transform:rotate(-20deg) scale(1.2)}
+.logo{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900;font-size:19px;text-decoration:none;margin-right:auto;letter-spacing:-.3px}.logo b{color:var(--lime)}
+.logo img{height:46px;width:auto;margin:-6px 0;transition:transform .4s}
+.logo:hover img{transform:rotate(-8deg) scale(1.12)}
 nav{display:flex;gap:4px;flex-wrap:wrap}
 nav a{color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:7px 14px;border-radius:99px;transition:.2s}
 nav a.on,nav a:hover{background:var(--lime);color:#0d1b4c;transform:rotate(-2deg)}
